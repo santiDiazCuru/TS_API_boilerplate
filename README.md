@@ -1,3 +1,32 @@
+# English:
+
+# Boilerplate for API with Node, typescript and express
+
+### Docker commands:
+
+##### docker build - .t *container name*
+
+Builds the container
+
+##### docker run -p 3000:3000 *container name*
+
+Runs an instance of the container
+
+### npm commands:
+
+##### npm run dev
+
+Runs an instance of the app directly from /src/index.ts with nodemon (it uses ts-node so it automatically transpiles to js)
+
+##### npm run build
+
+Takes all there is in the folder /src, compiles it to javascript and saves it inside /dist. In order to use a watcher so that every time changes are saved the code is compiled you sould add  the -w flag to the build script: "tsc -w"
+
+##### npm start
+Runs the app from /dist. (npm run build first)
+
+# Español
+
 # Api genérica con node, typescript y express
 
 ### Docker commands:
